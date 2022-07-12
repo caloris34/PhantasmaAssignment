@@ -1,0 +1,38 @@
+canvas {
+	border: none;
+}
+
+
+body {
+	color : #081038;
+	font-family : sans-serif;
+	font-size : medium;
+	margin-top: 20px;
+}
+
+#menuParametres, #zoneSimulation, #zoneGraphiques {
+	padding:0px;
+}
+
+#divGlobale {
+	margin: auto;
+	width: 1150px;
+	/*width: 1210px;*/	
+}
+
+#menuParametres  {
+	float:left;
+	width:235px;
+	/*background-color:#FF3366;*/
+	margin-right:10px;
+}
+
+#zoneSimulation {
+	float:left;
+	width:501px;
+}
+
+#zoneGraphiques {
+	float: right;
+	width:400px;
+}
